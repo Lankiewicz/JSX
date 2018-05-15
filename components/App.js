@@ -25,11 +25,10 @@ var contactForm = {
 var App = React.createClass({
   render: function() {
     return ( 
-      <div className = {'app'} >
+      <div className={'app'}>
         // Jak powyższe zamienić na JSX ?
-        <ContactForm contact = {contactForm} /> // Do komponentu ContactForm przekazujemy odpowiednie obiekty przez ich propsy {contact: ...
-        } 
-        <Contacts items = {contacts}/> 
+        <ContactForm contact={contactForm}></ContactForm> 
+        <Contacts items={contacts}></Contacts> 
       </div>
     )
   }
