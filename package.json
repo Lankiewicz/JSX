@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "http-server"
-=======
+    "start": "http-server",
     "watch:browsersync": "browser-sync start --server --files 'css/*.css' '*.html'"
->>>>>>> 37ce15cada3d81ce1a150581e152c64b8f396c16
   },
   "repository": {
     "type": "git",
